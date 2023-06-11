@@ -1,0 +1,366 @@
+.App {
+  text-align: center;
+  overflow: auto;
+  Outline: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  overflow: hidden;
+  Outline: none;
+}
+
+h1 {
+  margin: 0;  /* Removes the default margin */
+  padding: 0; /* Removes the default padding */
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #008f4f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  Outline: none;
+}
+
+.App-link {
+  color: #0073cc;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.correct {
+  color: #008f4f;
+}
+
+.incorrect {
+  color: #ff0000;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto;
+  Outline: none;
+}
+
+.page {
+  max-width: 120rem;  
+  max-width: 80%;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+  Outline: none;
+}
+
+
+button {
+  margin: 10px;
+  display: inline-block;
+  padding: 1vw 2vw;
+  background-color: #008f4f;
+  color: #ffffff;
+  font-size: 2vw; 
+  border: none;
+  border-radius: 0.3rem;  
+  cursor: pointer;
+  Outline: none;
+}
+
+button:hover {
+  background-color: #006431;
+}
+
+button:focus {
+  outline: 3px solid #004c25;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around; /* adjust this as needed */
+  margin: 0 10px;
+  Outline: none;
+}
+
+
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  Outline: none;
+}
+
+.expression-block {
+  font-size: 1.8rem;  
+  font-weight: bold;
+  margin: 10px 0;
+  Outline: none;
+}
+
+.expression-large {
+  font-size: 3vw; 
+  font-weight: bold;
+  Outline: none;
+}
+
+.larger-input {
+  font-size: 2vw; 
+  width: 90%; 
+  padding: 0.6rem 0.8rem;
+  margin: 15px;
+  Outline: none;
+}
+
+.larger-input:focus {
+  outline: 3px solid #004c25;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  Outline: none;
+}
+
+.main-block {
+  overflow: auto;
+  font-size: 2rem;
+  margin: 10rem auto;
+  Outline: none;
+}
+
+.settings-block {
+  font-size: 2vw;
+  margin: 3rem auto;
+  Outline: none;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 4rem auto;
+  /*margin: 50% auto;*/ 
+  padding: 1rem;  
+  border: 1px solid #888;
+  width: 85%;  
+  max-width: 100vw;  
+  border-radius: 1rem;
+  Outline: none;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  Outline: none;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  Outline: none;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  Outline: none;
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  Outline: none;
+}
+
+.setting-label {
+  width: 100px;
+  margin-right: 10px;
+  Outline: none;
+}
+
+.setting-input {
+  width: 40px;
+  Outline: none;
+}
+
+#settings label {
+  font-size: 2rem;
+  Outline: none;
+}
+
+.save-button {
+  padding: 1rem 1.5rem;  
+  background-color: #008f4f;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3rem;  
+  cursor: pointer;
+  Outline: none;
+}
+
+.settings-table {
+  margin-top: 20px;
+  Outline: none;
+}
+
+.settings-table table {
+  width: 100%;
+  border-collapse: collapse;
+  Outline: none;
+}
+
+.settings-table th,
+.settings-table td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  Outline: none;
+}
+
+.settings-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  Outline: none;
+}
+
+.custom-modal {
+  font-size: 5vm; /* Adjust as needed */
+  margin: 0.5rem auto; /* Adjust as needed */
+  Outline: none;
+}
+
+.expression-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* adjust this as per your requirement */
+  Outline: none;
+}
+
+@media screen and (max-width: 960px) {
+  .expression-block {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 5vw;
+  }
+
+  h1{
+    font-size: 5vw;
+  }
+
+  h2{
+    font-size: 5vw;
+  }
+
+  #settings label {
+    font-size: 5vw;
+  }
+
+  .button-group button {
+    margin: 10px; 
+  }
+
+  button {
+    margin-bottom: 10px; 
+    font-size: 5vw;
+    padding: 3vw 4vw;
+  }
+
+  .larger-input {
+    font-size: 4vw;
+  }
+
+  .expression-large {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (min-width: 960px){
+  .expression-block {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+
+  #settings label {
+    font-size: 3vw;
+  }
+
+  .button-group button {
+    margin: 8px; 
+  }
+
+  button {
+    margin-bottom: 8px;
+    font-size: 2vw;
+    padding: 1.6vw 2vw; 
+  }
+
+  .larger-input {
+    font-size: 2vw;
+  }
+
+  .expression-large {
+    font-size: 4vw;
+  }
+
+  button:focus {
+    outline: 0.2vw solid #004c25;
+  }
+
+  .larger-input:focus {
+    outline: 0.2vw solid #004c25;
+  }
+}
