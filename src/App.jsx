@@ -362,13 +362,13 @@ class App extends Component {
     return (
       <div className="App">
         <div id="welcome" className="page main-block" style={{ display: welcomeDisplay }}> {/* Added main-block */}
-        <h1>Добро пожаловать в игру <br />«Математический бум»!</h1>
+          <h1>Добро пожаловать в игру <br />«Математический бум»!</h1>
           <button id="start-btn" onClick={this.openRules}>
             Погнали
           </button>
         </div>
         <div id="rules-modal" className="modal rules-modal main-block custom-modal" style={{ display: modalDisplay }}>
-            <div className="modal-content">
+          <div className="modal-content">
             <h1>Правила игры</h1>
             <p>1. Вам будет предложено вычислить выражение.</p>
             <p>2. Введите ваш ответ в предоставленное поле ввода или ответьте словами.</p>
@@ -378,7 +378,7 @@ class App extends Component {
             </button>
           </div>
         </div>
-
+    
         <div id="game" className="page main-block" style={{ display: gameDisplay }}> {/* Added main-block */}
           <h1>Вычислите:</h1>
           <div id="expression-container">
@@ -387,36 +387,34 @@ class App extends Component {
             </span>
           </div>
           <form onSubmit={this.handleSubmit}>
-            <input type="number" id="answer" placeholder="Введите ваш ответ" className="larger-input" />
+            <input type="text" id="answer" placeholder="Введите ваш ответ" className="larger-input" />
             <div className="button-group">
               <button id="submit-btn" type="submit">
-                  Отправить
+                Отправить
               </button>
               <button id="settings-btn" type="button" onClick={this.openSettings}>
-                  Настройки
+                Настройки
               </button>
             </div>
           </form>
-
+    
           <p
-          id="result-message"
-          style={{ fontSize: "18px", fontWeight: "bold" }}
-          className={resultMessage.className}
+            id="result-message"
+            style={{ fontSize: "18px", fontWeight: "bold" }}
+            className={resultMessage.className}
           >
-          {resultMessage.text}
+            {resultMessage.text}
           </p>
         </div>
-
+    
         <div id="settings" className="page settings-block" style={{ display: settingsDisplay }}>
           <h2>Настройки</h2>
           <label htmlFor="max-number">Максимальное число (1-999):</label>
           <input
             ref={this.maxNumberInput}
-            type="number"
+            type="text"
             id="max-number"
             defaultValue={this.state.maxNumber}
-            min="1"
-            max="999"
             required
             className="larger-input"
             onKeyDown={this.handleKeyDown}
@@ -426,11 +424,8 @@ class App extends Component {
           <label htmlFor="depth">Сложность (1-4):</label>
           <input 
             ref={this.depInput}
-            type="range"
+            type="text"
             id="depth"
-            min="1"
-            max="4"
-            step="1"
             defaultValue={this.state.dep}
             className="larger-input"  // And here
             onKeyDown={this.handleKeyDown}
