@@ -70,9 +70,6 @@ class App extends Component {
       case 'ArrowRight':
         nextElement = event.target.nextElementSibling;
         break;
-      case 'Enter':
-        this.saveSettings();
-        return; // Exit if it's 'Enter'
       default:
         return; // Exit if it's not an arrow key
     }
