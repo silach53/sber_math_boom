@@ -397,7 +397,7 @@ class App extends Component {
     
           <p
             id="result-message"
-            style={{ fontSize: "18px", fontWeight: "bold" }}
+            style={{ fontSize: "2vw;", fontWeight: "bold" }}
             className={resultMessage.className}
           >
             {resultMessage.text}
@@ -429,7 +429,7 @@ class App extends Component {
             onChange={(event) => this.setState({ dep: event.target.value })}
           />
           <br />
-          <p id="settings-error" style={{ color: "red", display: "none" }}></p>
+          <p id="settings-error" style={{ fontSize: "2.5vw;", color: "red", display: "none" }}></p>
           <button id="save-settings-btn" onClick={this.saveSettings}>
             Сохранить
           </button>
