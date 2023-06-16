@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import img1 from './img1.png';
 import {
   createSmartappDebugger,
   createAssistant,
@@ -357,7 +358,16 @@ class App extends Component {
     disableZoom(); // Call the function to disable zooming
 
     return (
-      <div className="App">
+      <div 
+      className="App" 
+      style={{ 
+        backgroundImage: `url(${img1})`, 
+        backgroundPosition: 'center', 
+        backgroundSize: 'cover', 
+        backgroundRepeat: 'no-repeat',
+        height: '100vh', // Add this line
+      }}
+      >
         <div id="welcome" className="page main-block" style={{ display: welcomeDisplay }}> {/* Added main-block */}
           <h1>Добро пожаловать в игру <br />«Математический бум»!</h1>
           <button id="start-btn" onClick={this.openRules}>
