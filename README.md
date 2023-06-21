@@ -12,14 +12,11 @@
 
 ## Скриншоты работы приложения
 
-![localhost_3000_.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe3af5daf-7a7c-4c24-a880-67f5a4c11041%2Flocalhost_3000_.png?id=ad7e09f2-f4d5-4c01-b1d7-7c67de4dc750&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&width=2000&userId=3be1bbe0-4dcf-4fcd-991c-f87c817b274d&cache=v2)
+![localhost_3000_.png](https://file.notion.so/f/s/1eb76709-f7be-4848-af3d-7dda33cc311b/Untitled.png?id=770b1107-01e0-4767-903a-9a1b0c490458&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&expirationTimestamp=1687443489190&signature=Na0XLx7zswot1eMHDrERFd1e4gMD_xo3qi4ntLcuu1g&downloadName=Untitled.png)
 
-![localhost_3000_ (4).png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5af7e4b3-d7bc-46ad-bf8a-b60e40d2d953%2Flocalhost_3000__(4).png?id=8e5e26c2-1f60-48d6-b024-ab68250748e0&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&width=2000&userId=3be1bbe0-4dcf-4fcd-991c-f87c817b274d&cache=v2)
+![localhost_3000_ (4).png](https://file.notion.so/f/s/d987489e-a70b-489f-8e26-b0638923224d/Untitled.png?id=1da2ab24-5fdc-4a96-976c-bac5c840dd7f&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&expirationTimestamp=1687443497382&signature=G0FdGQP5o-8al-sXCw3Zww_wQMxSpeJqeq7m3TL8kFo&downloadName=Untitled.png)
 
-![localhost_3000_ (8).png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6344f292-8cde-4b4b-bace-7266c16c4e5a%2Flocalhost_3000__(8).png?id=ed6fa490-8b1f-4e30-ae6d-e6573373ffb0&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&width=2000&userId=3be1bbe0-4dcf-4fcd-991c-f87c817b274d&cache=v2)
-
-![localhost_3000_ (5).png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc16f5246-9cb0-40eb-8ad1-c6250373c597%2Flocalhost_3000__(5).png?id=6946b555-9c2b-49b8-bbf5-bb98eb874769&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&width=2000&userId=3be1bbe0-4dcf-4fcd-991c-f87c817b274d&cache=v2)
-
+![localhost_3000_ (8).png](https://file.notion.so/f/s/b93856fa-fe83-4455-86c1-a7b2701d7035/Untitled.png?id=e7581262-8d53-4a34-80a7-d8845293574d&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&expirationTimestamp=1687443504519&signature=SgpN9yb08hL7C9Z3x7J2nXIkvyMa20-qOe8p11Qpo6Q&downloadName=Untitled.png)
 
 # Техническая часть
 
