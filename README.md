@@ -12,11 +12,9 @@
 
 ## Скриншоты работы приложения
 
-![localhost_3000_.png](https://file.notion.so/f/s/1eb76709-f7be-4848-af3d-7dda33cc311b/Untitled.png?id=770b1107-01e0-4767-903a-9a1b0c490458&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&expirationTimestamp=1687443489190&signature=Na0XLx7zswot1eMHDrERFd1e4gMD_xo3qi4ntLcuu1g&downloadName=Untitled.png)
+![localhost_3000_ (13)](https://github.com/silach53/Finance-bot/assets/132053832/b1ba48fe-557d-4f2d-9486-61ad33b7dd3c)
 
-![localhost_3000_ (4).png](https://file.notion.so/f/s/d987489e-a70b-489f-8e26-b0638923224d/Untitled.png?id=1da2ab24-5fdc-4a96-976c-bac5c840dd7f&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&expirationTimestamp=1687443497382&signature=G0FdGQP5o-8al-sXCw3Zww_wQMxSpeJqeq7m3TL8kFo&downloadName=Untitled.png)
-
-![localhost_3000_ (8).png](https://file.notion.so/f/s/b93856fa-fe83-4455-86c1-a7b2701d7035/Untitled.png?id=e7581262-8d53-4a34-80a7-d8845293574d&table=block&spaceId=ddef7fbd-a22f-448d-92d9-f24eb260aaa7&expirationTimestamp=1687443504519&signature=SgpN9yb08hL7C9Z3x7J2nXIkvyMa20-qOe8p11Qpo6Q&downloadName=Untitled.png)
+![localhost_3000_ (14)](https://github.com/silach53/Finance-bot/assets/132053832/692ee5a6-61d7-44b9-992d-bb7291c105f6)
 
 # Техническая часть
 
